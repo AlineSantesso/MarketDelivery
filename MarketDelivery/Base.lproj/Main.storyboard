@@ -36,7 +36,7 @@
                                 <rect key="frame" x="40" y="400" width="240" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ren-MX-0EB">
-                                        <rect key="frame" x="98" y="0.0" width="45" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="84e-9a-VO9"/>
                                         </constraints>
@@ -52,10 +52,14 @@
                                 <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ren-MX-0EB" secondAttribute="bottom" id="1o8-77-q7I"/>
+                                    <constraint firstItem="ren-MX-0EB" firstAttribute="top" secondItem="MpT-gQ-tDY" secondAttribute="top" id="CaR-LC-3co"/>
                                     <constraint firstAttribute="height" constant="70" id="Kho-Ti-JBJ"/>
                                     <constraint firstItem="ren-MX-0EB" firstAttribute="top" secondItem="MpT-gQ-tDY" secondAttribute="top" id="RRl-e5-aA6"/>
+                                    <constraint firstItem="ren-MX-0EB" firstAttribute="leading" secondItem="MpT-gQ-tDY" secondAttribute="leading" id="VPA-46-3B2"/>
                                     <constraint firstAttribute="bottom" secondItem="ren-MX-0EB" secondAttribute="bottom" id="ey4-93-v2f"/>
                                     <constraint firstItem="ren-MX-0EB" firstAttribute="centerX" secondItem="MpT-gQ-tDY" secondAttribute="centerX" id="gki-Bh-fMs"/>
+                                    <constraint firstAttribute="trailing" secondItem="ren-MX-0EB" secondAttribute="trailing" id="vPb-qT-oNj"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1b0-1C-PUT" userLabel="Quero me Cadastrar View">
@@ -71,7 +75,7 @@
                                             <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="64b-0k-RTc" kind="show" id="iNC-kZ-Khs"/>
+                                            <action selector="queroMeCadastrar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZM-3A-Bc7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -127,6 +131,10 @@
                     <navigationItem key="navigationItem" id="PUK-c2-Tzb"/>
                     <connections>
                         <outlet property="imageMain" destination="vRt-rL-gsf" id="bNh-Nf-sut"/>
+                        <outlet property="loginButton" destination="ren-MX-0EB" id="NaZ-NA-MyU"/>
+                        <outlet property="loginView" destination="MpT-gQ-tDY" id="xRK-82-Ecr"/>
+                        <outlet property="queroMeCadastrarButton" destination="s1f-pO-AoF" id="cuY-uJ-6Fh"/>
+                        <outlet property="queroMeCadastrarView" destination="1b0-1C-PUT" id="ZHm-DH-ofa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -199,7 +207,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -210,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrg-eW-vec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2966.25" y="29.577464788732396"/>
+            <point key="canvasLocation" x="2949" y="30"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DdT-27-UrG">
@@ -233,21 +241,21 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="e-mail" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oB8-PS-wKu">
                                 <rect key="frame" x="40" y="307" width="240" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="telefone" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XSr-AX-Prj">
                                 <rect key="frame" x="40" y="345" width="240" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="senha" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VLY-Tw-hSz">
                                 <rect key="frame" x="40" y="383" width="240" height="30"/>
@@ -484,7 +492,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Uza-ti-QcG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xyZ-VF-AvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gw6-NW-cmn" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yKO-yW-L6o">
@@ -496,6 +503,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Uz7-lz-ZF9"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyZ-VF-AvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1031.25" y="29.577464788732396"/>
         </scene>
