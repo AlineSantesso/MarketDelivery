@@ -34,9 +34,6 @@
 		E2AF650C20E2CB1100DE4F66 /* icons-brocolis.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF64F920E2CB1000DE4F66 /* icons-brocolis.png */; };
 		E2AF650D20E2CB1100DE4F66 /* icons-cenoura.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF64FA20E2CB1000DE4F66 /* icons-cenoura.png */; };
 		E2AF650E20E2CB1100DE4F66 /* icons-mamao.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF64FB20E2CB1100DE4F66 /* icons-mamao.png */; };
-		E2AF651020E2CB5100DE4F66 /* Produto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AF650F20E2CB5100DE4F66 /* Produto.storyboard */; };
-		E2AF651220E2CD8F00DE4F66 /* Mercado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AF651120E2CD8F00DE4F66 /* Mercado.storyboard */; };
-		E2AF651620E2CF3400DE4F66 /* FinalizarCompra.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AF651520E2CF3400DE4F66 /* FinalizarCompra.storyboard */; };
 		E2AF651820E3D78700DE4F66 /* Candle Mustard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2AF651720E3D78600DE4F66 /* Candle Mustard.ttf */; };
 		E2AF652120E5D73E00DE4F66 /* icon-voltar.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF651F20E5D73D00DE4F66 /* icon-voltar.png */; };
 		E2AF652220E5D73E00DE4F66 /* icon-usuario.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF652020E5D73E00DE4F66 /* icon-usuario.png */; };
@@ -53,8 +50,17 @@
 		E2AF653A20E5EF1600DE4F66 /* sem carrinho.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF653920E5EF1500DE4F66 /* sem carrinho.png */; };
 		E2AF653D20E909EC00DE4F66 /* ProdutosDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF653C20E909EC00DE4F66 /* ProdutosDAO.swift */; };
 		E2AF653F20E90A7200DE4F66 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF653E20E90A7200DE4F66 /* Produto.swift */; };
-		E2AF654120E90AF100DE4F66 /* MercadoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654020E90AF100DE4F66 /* MercadoDAO.swift */; };
-		E2AF654320E90B3D00DE4F66 /* Mercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654220E90B3D00DE4F66 /* Mercado.swift */; };
+		E2AF654120E90AF100DE4F66 /* ProdutosMercadosDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654020E90AF100DE4F66 /* ProdutosMercadosDAO.swift */; };
+		E2AF654320E90B3D00DE4F66 /* ProdutosMercados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654220E90B3D00DE4F66 /* ProdutosMercados.swift */; };
+		E2AF654920E9245600DE4F66 /* createAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654820E9245600DE4F66 /* createAlert.swift */; };
+		E2AF654D20E93E1200DE4F66 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654C20E93E1200DE4F66 /* LoginViewController.swift */; };
+		E2AF655120E9488600DE4F66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655020E9488600DE4F66 /* HomeViewController.swift */; };
+		E2AF655520E94C6A00DE4F66 /* CriarListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */; };
+		E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */; };
+		E2AF655B20E998AE00DE4F66 /* SelecionarMercadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */; };
+		E2AF655F20E999CE00DE4F66 /* MercadoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */; };
+		E2AF656120E99BE100DE4F66 /* Mercados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656020E99BE100DE4F66 /* Mercados.swift */; };
+		E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,9 +114,6 @@
 		E2AF64F920E2CB1000DE4F66 /* icons-brocolis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-brocolis.png"; sourceTree = "<group>"; };
 		E2AF64FA20E2CB1000DE4F66 /* icons-cenoura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-cenoura.png"; sourceTree = "<group>"; };
 		E2AF64FB20E2CB1100DE4F66 /* icons-mamao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-mamao.png"; sourceTree = "<group>"; };
-		E2AF650F20E2CB5100DE4F66 /* Produto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Produto.storyboard; sourceTree = "<group>"; };
-		E2AF651120E2CD8F00DE4F66 /* Mercado.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mercado.storyboard; sourceTree = "<group>"; };
-		E2AF651520E2CF3400DE4F66 /* FinalizarCompra.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinalizarCompra.storyboard; sourceTree = "<group>"; };
 		E2AF651720E3D78600DE4F66 /* Candle Mustard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Candle Mustard.ttf"; path = "../../../Downloads/candle_mustard/Candle Mustard.ttf"; sourceTree = "<group>"; };
 		E2AF651F20E5D73D00DE4F66 /* icon-voltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-voltar.png"; path = "../../../../Downloads/icon-voltar.png"; sourceTree = "<group>"; };
 		E2AF652020E5D73E00DE4F66 /* icon-usuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-usuario.png"; path = "../../../../Downloads/icon-usuario.png"; sourceTree = "<group>"; };
@@ -127,8 +130,17 @@
 		E2AF653920E5EF1500DE4F66 /* sem carrinho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sem carrinho.png"; path = "../../../../Documents/sem carrinho.png"; sourceTree = "<group>"; };
 		E2AF653C20E909EC00DE4F66 /* ProdutosDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosDAO.swift; sourceTree = "<group>"; };
 		E2AF653E20E90A7200DE4F66 /* Produto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
-		E2AF654020E90AF100DE4F66 /* MercadoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoDAO.swift; sourceTree = "<group>"; };
-		E2AF654220E90B3D00DE4F66 /* Mercado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado.swift; sourceTree = "<group>"; };
+		E2AF654020E90AF100DE4F66 /* ProdutosMercadosDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosMercadosDAO.swift; sourceTree = "<group>"; };
+		E2AF654220E90B3D00DE4F66 /* ProdutosMercados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosMercados.swift; sourceTree = "<group>"; };
+		E2AF654820E9245600DE4F66 /* createAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAlert.swift; sourceTree = "<group>"; };
+		E2AF654C20E93E1200DE4F66 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2AF655020E9488600DE4F66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarListaViewController.swift; sourceTree = "<group>"; };
+		E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoTableViewCell.swift; sourceTree = "<group>"; };
+		E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionarMercadoViewController.swift; sourceTree = "<group>"; };
+		E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2AF656020E99BE100DE4F66 /* Mercados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercados.swift; sourceTree = "<group>"; };
+		E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheCompraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,15 +191,14 @@
 		E2AF648520E2BC5D00DE4F66 /* MarketDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				E2AF656220E99E0500DE4F66 /* DetalheCompra */,
+				E2AF651D20E5CB0900DE4F66 /* Criar Lista */,
+				E2AF651C20E5CAF400DE4F66 /* Mercado */,
 				E2AF651B20E5CAEF00DE4F66 /* Main */,
-				E2AF653B20E909BD00DE4F66 /* Models */,
-				E2AF651520E2CF3400DE4F66 /* FinalizarCompra.storyboard */,
-				E2AF651120E2CD8F00DE4F66 /* Mercado.storyboard */,
-				E2AF648A20E2BC5D00DE4F66 /* Main.storyboard */,
-				E2AF650F20E2CB5100DE4F66 /* Produto.storyboard */,
-				E2AF651D20E5CB0900DE4F66 /* Mercado */,
-				E2AF651C20E5CAF400DE4F66 /* Produto */,
+				E2AF651E20E5CB1E00DE4F66 /* Login */,
 				E2AF651A20E5CAE700DE4F66 /* Home */,
+				E2AF653B20E909BD00DE4F66 /* Models */,
+				E2AF648A20E2BC5D00DE4F66 /* Main.storyboard */,
 				E2AF651920E5CA9D00DE4F66 /* Assets */,
 				E2AF648620E2BC5D00DE4F66 /* AppDelegate.swift */,
 				E2AF648D20E2BC5E00DE4F66 /* Assets.xcassets */,
@@ -267,6 +278,8 @@
 		E2AF651A20E5CAE700DE4F66 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E2AF654F20E9487200DE4F66 /* Controller */,
+				E2AF654E20E9486A00DE4F66 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -275,30 +288,35 @@
 			isa = PBXGroup;
 			children = (
 				E2AF64B520E2C6F800DE4F66 /* Controller */,
-				E2AF651E20E5CB1E00DE4F66 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E2AF651C20E5CAF400DE4F66 /* Produto */ = {
+		E2AF651C20E5CAF400DE4F66 /* Mercado */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Produto;
-			sourceTree = "<group>";
-		};
-		E2AF651D20E5CB0900DE4F66 /* Mercado */ = {
-			isa = PBXGroup;
-			children = (
+				E2AF655920E9988900DE4F66 /* Controller */,
+				E2AF655620E9535400DE4F66 /* View */,
 			);
 			path = Mercado;
 			sourceTree = "<group>";
 		};
-		E2AF651E20E5CB1E00DE4F66 /* View */ = {
+		E2AF651D20E5CB0900DE4F66 /* Criar Lista */ = {
 			isa = PBXGroup;
 			children = (
+				E2AF655320E94C5500DE4F66 /* View */,
+				E2AF655220E94C4E00DE4F66 /* Controller */,
 			);
-			path = View;
+			path = "Criar Lista";
+			sourceTree = "<group>";
+		};
+		E2AF651E20E5CB1E00DE4F66 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF654420E922B700DE4F66 /* Controller */,
+				E2AF654520E922C100DE4F66 /* View */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		E2AF653B20E909BD00DE4F66 /* Models */ = {
@@ -306,10 +324,98 @@
 			children = (
 				E2AF653C20E909EC00DE4F66 /* ProdutosDAO.swift */,
 				E2AF653E20E90A7200DE4F66 /* Produto.swift */,
-				E2AF654020E90AF100DE4F66 /* MercadoDAO.swift */,
-				E2AF654220E90B3D00DE4F66 /* Mercado.swift */,
+				E2AF654020E90AF100DE4F66 /* ProdutosMercadosDAO.swift */,
+				E2AF654220E90B3D00DE4F66 /* ProdutosMercados.swift */,
+				E2AF654820E9245600DE4F66 /* createAlert.swift */,
+				E2AF656020E99BE100DE4F66 /* Mercados.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E2AF654420E922B700DE4F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF654C20E93E1200DE4F66 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AF654520E922C100DE4F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2AF654E20E9486A00DE4F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2AF654F20E9487200DE4F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF655020E9488600DE4F66 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AF655220E94C4E00DE4F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AF655320E94C5500DE4F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2AF655620E9535400DE4F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2AF655920E9988900DE4F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AF656220E99E0500DE4F66 /* DetalheCompra */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF656420E9A03000DE4F66 /* View */,
+				E2AF656320E9A01E00DE4F66 /* Controller */,
+			);
+			path = DetalheCompra;
+			sourceTree = "<group>";
+		};
+		E2AF656320E9A01E00DE4F66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AF656420E9A03000DE4F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,7 +531,6 @@
 				E2AF653820E5EB3700DE4F66 /* icon-sair.png in Resources */,
 				E2AF650120E2CB1100DE4F66 /* icons-batata.png in Resources */,
 				E2AF650E20E2CB1100DE4F66 /* icons-mamao.png in Resources */,
-				E2AF651020E2CB5100DE4F66 /* Produto.storyboard in Resources */,
 				E2AF650820E2CB1100DE4F66 /* icons-melao.png in Resources */,
 				E2AF650D20E2CB1100DE4F66 /* icons-cenoura.png in Resources */,
 				E2AF653620E5E93B00DE4F66 /* icon-circulo-laranja.png in Resources */,
@@ -433,7 +538,6 @@
 				E2AF651820E3D78700DE4F66 /* Candle Mustard.ttf in Resources */,
 				E2AF652A20E5E2D200DE4F66 /* icon-mais-laranja.png in Resources */,
 				E2AF64FE20E2CB1100DE4F66 /* icons-leite.png in Resources */,
-				E2AF651620E2CF3400DE4F66 /* FinalizarCompra.storyboard in Resources */,
 				E2AF650920E2CB1100DE4F66 /* icons-biscoitos.png in Resources */,
 				E2AF653220E5E86B00DE4F66 /* icon-circulo-azul.png in Resources */,
 				E2AF650320E2CB1100DE4F66 /* icons-bife.png in Resources */,
@@ -452,7 +556,6 @@
 				E2AF648E20E2BC5E00DE4F66 /* Assets.xcassets in Resources */,
 				E2AF650620E2CB1100DE4F66 /* icons-azeite.png in Resources */,
 				E2AF652620E5E24C00DE4F66 /* icon-voltar-laranja.png in Resources */,
-				E2AF651220E2CD8F00DE4F66 /* Mercado.storyboard in Resources */,
 				E2AF653320E5E86B00DE4F66 /* icon-adicionar-lista.png in Resources */,
 				E2AF650720E2CB1100DE4F66 /* icons-alho.png in Resources */,
 				E2AF648C20E2BC5D00DE4F66 /* Main.storyboard in Resources */,
@@ -480,11 +583,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AF654920E9245600DE4F66 /* createAlert.swift in Sources */,
 				E2AF653D20E909EC00DE4F66 /* ProdutosDAO.swift in Sources */,
-				E2AF654320E90B3D00DE4F66 /* Mercado.swift in Sources */,
-				E2AF654120E90AF100DE4F66 /* MercadoDAO.swift in Sources */,
+				E2AF654320E90B3D00DE4F66 /* ProdutosMercados.swift in Sources */,
+				E2AF655B20E998AE00DE4F66 /* SelecionarMercadoViewController.swift in Sources */,
+				E2AF654120E90AF100DE4F66 /* ProdutosMercadosDAO.swift in Sources */,
+				E2AF655520E94C6A00DE4F66 /* CriarListaViewController.swift in Sources */,
+				E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */,
+				E2AF654D20E93E1200DE4F66 /* LoginViewController.swift in Sources */,
+				E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */,
+				E2AF655120E9488600DE4F66 /* HomeViewController.swift in Sources */,
 				E2AF653F20E90A7200DE4F66 /* Produto.swift in Sources */,
 				E2AF648920E2BC5D00DE4F66 /* MainViewController.swift in Sources */,
+				E2AF656120E99BE100DE4F66 /* Mercados.swift in Sources */,
+				E2AF655F20E999CE00DE4F66 /* MercadoCollectionViewCell.swift in Sources */,
 				E2AF648720E2BC5D00DE4F66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
