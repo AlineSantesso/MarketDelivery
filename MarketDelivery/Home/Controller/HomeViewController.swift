@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func criarLista(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "criarLista") as! CriarListaViewController
+        let controller = storyboard.instantiateViewController(withIdentifier: "produto") as! ProdutoViewController
         self.navigationController?.pushViewController(controller, animated: true)
     }
     

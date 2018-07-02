@@ -1,7 +1,7 @@
     
 import UIKit
 
-class CriarListaViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class ProdutoViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet weak var tabelaProdutos: UITableView!
     
@@ -34,7 +34,7 @@ class CriarListaViewController: UIViewController, UITableViewDataSource, UITable
     
     @IBAction func irAoMercado(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "selecionarMercado") as! SelecionarMercadoViewController
+        let controller = storyboard.instantiateViewController(withIdentifier: "mercado") as! MercadoViewController
         self.navigationController?.pushViewController(controller, animated: true)
     }
     

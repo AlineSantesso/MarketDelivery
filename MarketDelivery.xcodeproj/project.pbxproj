@@ -55,10 +55,9 @@
 		E2AF654920E9245600DE4F66 /* createAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654820E9245600DE4F66 /* createAlert.swift */; };
 		E2AF654D20E93E1200DE4F66 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF654C20E93E1200DE4F66 /* LoginViewController.swift */; };
 		E2AF655120E9488600DE4F66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655020E9488600DE4F66 /* HomeViewController.swift */; };
-		E2AF655520E94C6A00DE4F66 /* CriarListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */; };
+		E2AF655520E94C6A00DE4F66 /* ProdutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655420E94C6A00DE4F66 /* ProdutoViewController.swift */; };
 		E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */; };
-		E2AF655B20E998AE00DE4F66 /* SelecionarMercadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */; };
-		E2AF655F20E999CE00DE4F66 /* MercadoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */; };
+		E2AF655B20E998AE00DE4F66 /* MercadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655A20E998AE00DE4F66 /* MercadoViewController.swift */; };
 		E2AF656120E99BE100DE4F66 /* Mercados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656020E99BE100DE4F66 /* Mercados.swift */; };
 		E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */; };
 /* End PBXBuildFile section */
@@ -135,10 +134,9 @@
 		E2AF654820E9245600DE4F66 /* createAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAlert.swift; sourceTree = "<group>"; };
 		E2AF654C20E93E1200DE4F66 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E2AF655020E9488600DE4F66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarListaViewController.swift; sourceTree = "<group>"; };
+		E2AF655420E94C6A00DE4F66 /* ProdutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoViewController.swift; sourceTree = "<group>"; };
 		E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoTableViewCell.swift; sourceTree = "<group>"; };
-		E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecionarMercadoViewController.swift; sourceTree = "<group>"; };
-		E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2AF655A20E998AE00DE4F66 /* MercadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoViewController.swift; sourceTree = "<group>"; };
 		E2AF656020E99BE100DE4F66 /* Mercados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercados.swift; sourceTree = "<group>"; };
 		E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheCompraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				E2AF656220E99E0500DE4F66 /* DetalheCompra */,
-				E2AF651D20E5CB0900DE4F66 /* Criar Lista */,
+				E2AF651D20E5CB0900DE4F66 /* Produto */,
 				E2AF651C20E5CAF400DE4F66 /* Mercado */,
 				E2AF651B20E5CAEF00DE4F66 /* Main */,
 				E2AF651E20E5CB1E00DE4F66 /* Login */,
@@ -301,13 +299,13 @@
 			path = Mercado;
 			sourceTree = "<group>";
 		};
-		E2AF651D20E5CB0900DE4F66 /* Criar Lista */ = {
+		E2AF651D20E5CB0900DE4F66 /* Produto */ = {
 			isa = PBXGroup;
 			children = (
 				E2AF655320E94C5500DE4F66 /* View */,
 				E2AF655220E94C4E00DE4F66 /* Controller */,
 			);
-			path = "Criar Lista";
+			path = Produto;
 			sourceTree = "<group>";
 		};
 		E2AF651E20E5CB1E00DE4F66 /* Login */ = {
@@ -365,7 +363,7 @@
 		E2AF655220E94C4E00DE4F66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E2AF655420E94C6A00DE4F66 /* CriarListaViewController.swift */,
+				E2AF655420E94C6A00DE4F66 /* ProdutoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -381,7 +379,6 @@
 		E2AF655620E9535400DE4F66 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E2AF655E20E999CE00DE4F66 /* MercadoCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -389,7 +386,7 @@
 		E2AF655920E9988900DE4F66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E2AF655A20E998AE00DE4F66 /* SelecionarMercadoViewController.swift */,
+				E2AF655A20E998AE00DE4F66 /* MercadoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -586,9 +583,9 @@
 				E2AF654920E9245600DE4F66 /* createAlert.swift in Sources */,
 				E2AF653D20E909EC00DE4F66 /* ProdutosDAO.swift in Sources */,
 				E2AF654320E90B3D00DE4F66 /* ProdutosMercados.swift in Sources */,
-				E2AF655B20E998AE00DE4F66 /* SelecionarMercadoViewController.swift in Sources */,
+				E2AF655B20E998AE00DE4F66 /* MercadoViewController.swift in Sources */,
 				E2AF654120E90AF100DE4F66 /* ProdutosMercadosDAO.swift in Sources */,
-				E2AF655520E94C6A00DE4F66 /* CriarListaViewController.swift in Sources */,
+				E2AF655520E94C6A00DE4F66 /* ProdutoViewController.swift in Sources */,
 				E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */,
 				E2AF654D20E93E1200DE4F66 /* LoginViewController.swift in Sources */,
 				E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */,
@@ -596,7 +593,6 @@
 				E2AF653F20E90A7200DE4F66 /* Produto.swift in Sources */,
 				E2AF648920E2BC5D00DE4F66 /* MainViewController.swift in Sources */,
 				E2AF656120E99BE100DE4F66 /* Mercados.swift in Sources */,
-				E2AF655F20E999CE00DE4F66 /* MercadoCollectionViewCell.swift in Sources */,
 				E2AF648720E2BC5D00DE4F66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
