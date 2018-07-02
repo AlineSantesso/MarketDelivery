@@ -13,8 +13,6 @@ class ProdutoViewController: UIViewController, UITableViewDataSource, UITableVie
         self.tabelaProdutos.delegate = self
     }
     
-    //MARK: - TableView
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listaProdutos.count
     }
