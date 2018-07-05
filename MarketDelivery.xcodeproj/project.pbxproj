@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AA778B21EB7F5980283381 /* Pods_MarketDeliveryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE5AA690A7A8D27B317C0A7 /* Pods_MarketDeliveryUITests.framework */; };
+		436CB55507D254693B09F4E7 /* Pods_MarketDeliveryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F46CA8D830B326C73C33E /* Pods_MarketDeliveryTests.framework */; };
+		DBC9ACC544E4FFE7CFE2B1A8 /* Pods_MarketDelivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DDFCA346F518139A47B900 /* Pods_MarketDelivery.framework */; };
+		E2AD2FCD20EDA68000477938 /* ResumoCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD2FCC20EDA68000477938 /* ResumoCompraViewController.swift */; };
+		E2AD2FD220EDAE6E00477938 /* icon-extra.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD2FCE20EDAE6C00477938 /* icon-extra.png */; };
+		E2AD2FD320EDAE6E00477938 /* icon-walmart.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD2FCF20EDAE6C00477938 /* icon-walmart.png */; };
+		E2AD2FD420EDAE6E00477938 /* icon-paodeacucar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2AD2FD020EDAE6D00477938 /* icon-paodeacucar.jpg */; };
+		E2AD2FD520EDAE6E00477938 /* icon-carrefour.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD2FD120EDAE6D00477938 /* icon-carrefour.png */; };
 		E2AF648720E2BC5D00DE4F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF648620E2BC5D00DE4F66 /* AppDelegate.swift */; };
 		E2AF648920E2BC5D00DE4F66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF648820E2BC5D00DE4F66 /* MainViewController.swift */; };
 		E2AF648C20E2BC5D00DE4F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AF648A20E2BC5D00DE4F66 /* Main.storyboard */; };
@@ -59,7 +67,9 @@
 		E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */; };
 		E2AF655B20E998AE00DE4F66 /* MercadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF655A20E998AE00DE4F66 /* MercadoViewController.swift */; };
 		E2AF656120E99BE100DE4F66 /* Mercados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656020E99BE100DE4F66 /* Mercados.swift */; };
-		E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */; };
+		E2AF656820ECEC8100DE4F66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2AF656720ECEC7D00DE4F66 /* GoogleService-Info.plist */; };
+		E2AF656A20ED4F0900DE4F66 /* MercadosDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656920ED4F0900DE4F66 /* MercadosDAO.swift */; };
+		E2AF656C20ED515900DE4F66 /* MercadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF656B20ED515900DE4F66 /* MercadoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078FFB594E488F0BBF94770D /* Pods-MarketDeliveryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDeliveryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDeliveryUITests/Pods-MarketDeliveryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30F42417DBC2D69099FBE06B /* Pods-MarketDeliveryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDeliveryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDeliveryUITests/Pods-MarketDeliveryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		801F46CA8D830B326C73C33E /* Pods_MarketDeliveryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketDeliveryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE5AA690A7A8D27B317C0A7 /* Pods_MarketDeliveryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketDeliveryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DDFCA346F518139A47B900 /* Pods_MarketDelivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketDelivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AD2FCC20EDA68000477938 /* ResumoCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumoCompraViewController.swift; sourceTree = "<group>"; };
+		E2AD2FCE20EDAE6C00477938 /* icon-extra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-extra.png"; sourceTree = "<group>"; };
+		E2AD2FCF20EDAE6C00477938 /* icon-walmart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-walmart.png"; sourceTree = "<group>"; };
+		E2AD2FD020EDAE6D00477938 /* icon-paodeacucar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon-paodeacucar.jpg"; sourceTree = "<group>"; };
+		E2AD2FD120EDAE6D00477938 /* icon-carrefour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-carrefour.png"; sourceTree = "<group>"; };
 		E2AF648320E2BC5D00DE4F66 /* MarketDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF648620E2BC5D00DE4F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2AF648820E2BC5D00DE4F66 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -138,7 +158,13 @@
 		E2AF655720E9538B00DE4F66 /* ProdutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoTableViewCell.swift; sourceTree = "<group>"; };
 		E2AF655A20E998AE00DE4F66 /* MercadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoViewController.swift; sourceTree = "<group>"; };
 		E2AF656020E99BE100DE4F66 /* Mercados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercados.swift; sourceTree = "<group>"; };
-		E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheCompraViewController.swift; sourceTree = "<group>"; };
+		E2AF656720ECEC7D00DE4F66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2AF656920ED4F0900DE4F66 /* MercadosDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadosDAO.swift; sourceTree = "<group>"; };
+		E2AF656B20ED515900DE4F66 /* MercadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoTableViewCell.swift; sourceTree = "<group>"; };
+		E3D35CC51A06B03AFF243070 /* Pods-MarketDeliveryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDeliveryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDeliveryTests/Pods-MarketDeliveryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC38D91B1F8710BC4BEBE558 /* Pods-MarketDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDelivery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDelivery/Pods-MarketDelivery.debug.xcconfig"; sourceTree = "<group>"; };
+		F5636FE0299F5FA27EC2BBC6 /* Pods-MarketDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDelivery.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDelivery/Pods-MarketDelivery.release.xcconfig"; sourceTree = "<group>"; };
+		F7E2719DB47E33B7BBB99880 /* Pods-MarketDeliveryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketDeliveryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketDeliveryTests/Pods-MarketDeliveryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC9ACC544E4FFE7CFE2B1A8 /* Pods_MarketDelivery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				436CB55507D254693B09F4E7 /* Pods_MarketDeliveryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,12 +188,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AA778B21EB7F5980283381 /* Pods_MarketDeliveryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7707F4DFE2847708E86A84E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC38D91B1F8710BC4BEBE558 /* Pods-MarketDelivery.debug.xcconfig */,
+				F5636FE0299F5FA27EC2BBC6 /* Pods-MarketDelivery.release.xcconfig */,
+				E3D35CC51A06B03AFF243070 /* Pods-MarketDeliveryTests.debug.xcconfig */,
+				F7E2719DB47E33B7BBB99880 /* Pods-MarketDeliveryTests.release.xcconfig */,
+				30F42417DBC2D69099FBE06B /* Pods-MarketDeliveryUITests.debug.xcconfig */,
+				078FFB594E488F0BBF94770D /* Pods-MarketDeliveryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A6554B1DFF0771B8C2CF78A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDFCA346F518139A47B900 /* Pods_MarketDelivery.framework */,
+				801F46CA8D830B326C73C33E /* Pods_MarketDeliveryTests.framework */,
+				8EE5AA690A7A8D27B317C0A7 /* Pods_MarketDeliveryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2AD2FC920EDA65400477938 /* ResumoCompra */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD2FCB20EDA66500477938 /* View */,
+				E2AD2FCA20EDA65F00477938 /* Controller */,
+			);
+			path = ResumoCompra;
+			sourceTree = "<group>";
+		};
+		E2AD2FCA20EDA65F00477938 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD2FCC20EDA68000477938 /* ResumoCompraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2AD2FCB20EDA66500477938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E2AF647A20E2BC5D00DE4F66 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +249,8 @@
 				E2AF649A20E2BC5E00DE4F66 /* MarketDeliveryTests */,
 				E2AF64A520E2BC5E00DE4F66 /* MarketDeliveryUITests */,
 				E2AF648420E2BC5D00DE4F66 /* Products */,
+				7707F4DFE2847708E86A84E1 /* Pods */,
+				9A6554B1DFF0771B8C2CF78A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,11 +267,11 @@
 		E2AF648520E2BC5D00DE4F66 /* MarketDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				E2AF656220E99E0500DE4F66 /* DetalheCompra */,
-				E2AF651D20E5CB0900DE4F66 /* Produto */,
-				E2AF651C20E5CAF400DE4F66 /* Mercado */,
 				E2AF651B20E5CAEF00DE4F66 /* Main */,
 				E2AF651E20E5CB1E00DE4F66 /* Login */,
+				E2AD2FC920EDA65400477938 /* ResumoCompra */,
+				E2AF651D20E5CB0900DE4F66 /* Produto */,
+				E2AF651C20E5CAF400DE4F66 /* Mercado */,
 				E2AF651A20E5CAE700DE4F66 /* Home */,
 				E2AF653B20E909BD00DE4F66 /* Models */,
 				E2AF648A20E2BC5D00DE4F66 /* Main.storyboard */,
@@ -203,6 +281,7 @@
 				E2AF648F20E2BC5E00DE4F66 /* LaunchScreen.storyboard */,
 				E2AF651720E3D78600DE4F66 /* Candle Mustard.ttf */,
 				E2AF649220E2BC5E00DE4F66 /* Info.plist */,
+				E2AF656720ECEC7D00DE4F66 /* GoogleService-Info.plist */,
 			);
 			path = MarketDelivery;
 			sourceTree = "<group>";
@@ -236,6 +315,10 @@
 		E2AF651920E5CA9D00DE4F66 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E2AD2FD120EDAE6D00477938 /* icon-carrefour.png */,
+				E2AD2FCE20EDAE6C00477938 /* icon-extra.png */,
+				E2AD2FD020EDAE6D00477938 /* icon-paodeacucar.jpg */,
+				E2AD2FCF20EDAE6C00477938 /* icon-walmart.png */,
 				E2AF653920E5EF1500DE4F66 /* sem carrinho.png */,
 				E2AF653720E5EB3600DE4F66 /* icon-sair.png */,
 				E2AF653520E5E93B00DE4F66 /* icon-circulo-laranja.png */,
@@ -326,6 +409,7 @@
 				E2AF654220E90B3D00DE4F66 /* ProdutosMercados.swift */,
 				E2AF654820E9245600DE4F66 /* createAlert.swift */,
 				E2AF656020E99BE100DE4F66 /* Mercados.swift */,
+				E2AF656920ED4F0900DE4F66 /* MercadosDAO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -379,6 +463,7 @@
 		E2AF655620E9535400DE4F66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E2AF656B20ED515900DE4F66 /* MercadoTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,30 +476,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E2AF656220E99E0500DE4F66 /* DetalheCompra */ = {
-			isa = PBXGroup;
-			children = (
-				E2AF656420E9A03000DE4F66 /* View */,
-				E2AF656320E9A01E00DE4F66 /* Controller */,
-			);
-			path = DetalheCompra;
-			sourceTree = "<group>";
-		};
-		E2AF656320E9A01E00DE4F66 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E2AF656520E9A05F00DE4F66 /* DetalheCompraViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E2AF656420E9A03000DE4F66 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,9 +483,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF64AB20E2BC5E00DE4F66 /* Build configuration list for PBXNativeTarget "MarketDelivery" */;
 			buildPhases = (
+				56D7231F6DD118573722CACC /* [CP] Check Pods Manifest.lock */,
 				E2AF647F20E2BC5D00DE4F66 /* Sources */,
 				E2AF648020E2BC5D00DE4F66 /* Frameworks */,
 				E2AF648120E2BC5D00DE4F66 /* Resources */,
+				CE6F229D4D6C3A200E24D207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -439,6 +502,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF64AE20E2BC5E00DE4F66 /* Build configuration list for PBXNativeTarget "MarketDeliveryTests" */;
 			buildPhases = (
+				684C06AC5BB6965B6FA98F65 /* [CP] Check Pods Manifest.lock */,
 				E2AF649320E2BC5E00DE4F66 /* Sources */,
 				E2AF649420E2BC5E00DE4F66 /* Frameworks */,
 				E2AF649520E2BC5E00DE4F66 /* Resources */,
@@ -457,6 +521,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF64B120E2BC5E00DE4F66 /* Build configuration list for PBXNativeTarget "MarketDeliveryUITests" */;
 			buildPhases = (
+				DE093E621CF4E33BD98030A8 /* [CP] Check Pods Manifest.lock */,
 				E2AF649E20E2BC5E00DE4F66 /* Sources */,
 				E2AF649F20E2BC5E00DE4F66 /* Frameworks */,
 				E2AF64A020E2BC5E00DE4F66 /* Resources */,
@@ -530,9 +595,12 @@
 				E2AF650E20E2CB1100DE4F66 /* icons-mamao.png in Resources */,
 				E2AF650820E2CB1100DE4F66 /* icons-melao.png in Resources */,
 				E2AF650D20E2CB1100DE4F66 /* icons-cenoura.png in Resources */,
+				E2AF656820ECEC8100DE4F66 /* GoogleService-Info.plist in Resources */,
+				E2AD2FD520EDAE6E00477938 /* icon-carrefour.png in Resources */,
 				E2AF653620E5E93B00DE4F66 /* icon-circulo-laranja.png in Resources */,
 				E2AF653420E5E86B00DE4F66 /* icon-forma-pagamento.png in Resources */,
 				E2AF651820E3D78700DE4F66 /* Candle Mustard.ttf in Resources */,
+				E2AD2FD420EDAE6E00477938 /* icon-paodeacucar.jpg in Resources */,
 				E2AF652A20E5E2D200DE4F66 /* icon-mais-laranja.png in Resources */,
 				E2AF64FE20E2CB1100DE4F66 /* icons-leite.png in Resources */,
 				E2AF650920E2CB1100DE4F66 /* icons-biscoitos.png in Resources */,
@@ -541,7 +609,9 @@
 				E2AF650B20E2CB1100DE4F66 /* icons-melancia.png in Resources */,
 				E2AF64FF20E2CB1100DE4F66 /* icons-camarao.png in Resources */,
 				E2AF652220E5D73E00DE4F66 /* icon-usuario.png in Resources */,
+				E2AD2FD220EDAE6E00477938 /* icon-extra.png in Resources */,
 				E2AF649120E2BC5E00DE4F66 /* LaunchScreen.storyboard in Resources */,
+				E2AD2FD320EDAE6E00477938 /* icon-walmart.png in Resources */,
 				E2AF64FC20E2CB1100DE4F66 /* icons-farinha.png in Resources */,
 				E2AF64E820E2CA3000DE4F66 /* MarketDelivery.png in Resources */,
 				E2AF650420E2CB1100DE4F66 /* icons-peixe.png in Resources */,
@@ -575,18 +645,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56D7231F6DD118573722CACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketDelivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684C06AC5BB6965B6FA98F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketDeliveryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6F229D4D6C3A200E24D207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarketDelivery/Pods-MarketDelivery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketDelivery/Pods-MarketDelivery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE093E621CF4E33BD98030A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarketDeliveryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2AF647F20E2BC5D00DE4F66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AF656A20ED4F0900DE4F66 /* MercadosDAO.swift in Sources */,
 				E2AF654920E9245600DE4F66 /* createAlert.swift in Sources */,
 				E2AF653D20E909EC00DE4F66 /* ProdutosDAO.swift in Sources */,
+				E2AF656C20ED515900DE4F66 /* MercadoTableViewCell.swift in Sources */,
 				E2AF654320E90B3D00DE4F66 /* ProdutosMercados.swift in Sources */,
+				E2AD2FCD20EDA68000477938 /* ResumoCompraViewController.swift in Sources */,
 				E2AF655B20E998AE00DE4F66 /* MercadoViewController.swift in Sources */,
 				E2AF654120E90AF100DE4F66 /* ProdutosMercadosDAO.swift in Sources */,
 				E2AF655520E94C6A00DE4F66 /* ProdutoViewController.swift in Sources */,
-				E2AF656620E9A05F00DE4F66 /* DetalheCompraViewController.swift in Sources */,
 				E2AF654D20E93E1200DE4F66 /* LoginViewController.swift in Sources */,
 				E2AF655820E9538B00DE4F66 /* ProdutoTableViewCell.swift in Sources */,
 				E2AF655120E9488600DE4F66 /* HomeViewController.swift in Sources */,
@@ -764,6 +915,7 @@
 		};
 		E2AF64AC20E2BC5E00DE4F66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC38D91B1F8710BC4BEBE558 /* Pods-MarketDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -781,6 +933,7 @@
 		};
 		E2AF64AD20E2BC5E00DE4F66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5636FE0299F5FA27EC2BBC6 /* Pods-MarketDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -798,6 +951,7 @@
 		};
 		E2AF64AF20E2BC5E00DE4F66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D35CC51A06B03AFF243070 /* Pods-MarketDeliveryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,6 +972,7 @@
 		};
 		E2AF64B020E2BC5E00DE4F66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E2719DB47E33B7BBB99880 /* Pods-MarketDeliveryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -838,6 +993,7 @@
 		};
 		E2AF64B220E2BC5E00DE4F66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F42417DBC2D69099FBE06B /* Pods-MarketDeliveryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -857,6 +1013,7 @@
 		};
 		E2AF64B320E2BC5E00DE4F66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078FFB594E488F0BBF94770D /* Pods-MarketDeliveryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

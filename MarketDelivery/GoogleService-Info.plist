@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>849473102887-c14t2ekmpb5a3c59befu692hjbj7447m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.849473102887-c14t2ekmpb5a3c59befu692hjbj7447m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDGmJd1gjD1aoEn468xBRV9mRqwLCv6s-o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>849473102887</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.asantesso.MarketDelivery</string>
+	<key>PROJECT_ID</key>
+	<string>marketdelivery-asa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>marketdelivery-asa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:849473102887:ios:5fdb8afc0318c798</string>
+	<key>DATABASE_URL</key>
+	<string>https://marketdelivery-asa.firebaseio.com</string>
+</dict>
+</plist>

@@ -23,8 +23,7 @@ class ProdutoViewController: UIViewController, UITableViewDataSource, UITableVie
         cell.configuraCelula(produto: produtoAtual)
         return cell
     }
-    
-    // Testes
+
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 40
