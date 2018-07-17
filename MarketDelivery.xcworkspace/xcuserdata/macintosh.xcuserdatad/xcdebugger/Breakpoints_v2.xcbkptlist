@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/Produto/Controller/ProdutoViewController.swift"
+            timestampString = "552424797.697785"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/Produto/Controller/ProdutoViewController.swift"
+            timestampString = "552424797.69912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/Produto/Controller/ProdutoViewController.swift"
+            timestampString = "552424797.699581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/Mercado/View/MercadoTableViewCell.swift"
+            timestampString = "552448425.545927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+            timestampString = "552449487.1853909"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ResumoCompraViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.mercadoSelecionado.getter : Swift.Optional&lt;MarketDelivery.Mercados&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552448267.1668741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.mercadoSelecionado.setter : Swift.Optional&lt;MarketDelivery.Mercados&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552448267.170487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MarketDelivery.ResumoCompraViewController"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552448267.174333"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "491">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MarketDelivery.ResumoCompraViewController&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552448267.178805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "410">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+            timestampString = "552449487.185537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+            timestampString = "552449487.185673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ResumoCompraViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.imagemMercado.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552447841.553421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.imagemMercado.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552447841.557026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MarketDelivery.ResumoCompraViewController"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552447841.56157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1025">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarketDelivery.ResumoCompraViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MarketDelivery.ResumoCompraViewController&gt;"
+                  moduleName = "MarketDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macintosh/Desktop/MarketDelivery/MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+                  timestampString = "552447841.564929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "938">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketDelivery/ResumoCompra/Controller/ResumoCompraViewController.swift"
+            timestampString = "552449487.185784"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "createAlert(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
