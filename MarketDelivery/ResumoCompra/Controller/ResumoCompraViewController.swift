@@ -26,6 +26,25 @@ class ResumoCompraViewController: UIViewController {
         }
     }
     
+    //MARK: - Action
+    
+    @IBAction func buttonFinalizarCompra(_ sender: Any) {
+        createAlert(message: "Compra Realizada!!!")
+        return
+    }
+    
+    //MARK: - Funções
+    func createAlert(message:String) {
+        let myAlert = UIAlertController(title: "Sucesso", message: message, preferredStyle: UIAlertControllerStyle.alert);
+        
+        myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            myAlert.dismiss(animated: true, completion: nil)
+        }))
+        
+        
+        self.present(myAlert, animated: true, completion: nil)
+        
+    }
     
 
 

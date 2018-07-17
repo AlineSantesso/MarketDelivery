@@ -39,8 +39,7 @@ class MainViewController: UIViewController {
     
         myAlert.addAction(UIAlertAction(title: "Fechar Mensagem", style: UIAlertActionStyle.default, handler: { (action) in
             myAlert.dismiss(animated: true, completion: nil)
-                print("mensagem fechada")
-            }))
+        }))
         
         
         self.present(myAlert, animated: true, completion: nil)

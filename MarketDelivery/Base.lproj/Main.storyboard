@@ -747,8 +747,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3Y-Gb-sVX" userLabel="Finalizar Compra View">
                                 <rect key="frame" x="40" y="478" width="240" height="70"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSA-z7-0l8">
-                                        <rect key="frame" x="52.5" y="0.0" width="135" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSA-z7-0l8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="nAK-l4-0RI"/>
                                         </constraints>
@@ -757,6 +757,7 @@
                                             <color key="titleColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="buttonFinalizarCompra:" destination="Okx-IO-YU8" eventType="touchUpInside" id="w0o-VZ-Htd"/>
                                             <action selector="irAoMercado:" destination="Mpy-E3-h93" eventType="touchUpInside" id="5DR-h5-f5L"/>
                                         </connections>
                                     </button>
